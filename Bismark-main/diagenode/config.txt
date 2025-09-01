@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This config file contains the settings for Bismark analysis
+# Please edit this file as appropriate
+
+# Fastq directory: Parent directory containing all the fastq files needed for this analysis - can just be the sequencing folder
+# The fastq files can be in multiple subdirectories beneath this
+FASTQDIR=/data/WHRI-GenomeCentre/shares/Projects/NGS_Projects/DNA_Sequencing/Sharples_Adam/GC-AS-10657/Analysis/3.UMItools_extract
+
+# Analysis directory: Directory to perform analysis in
+# This file should be contained in this directory
+ANALYSISDIR=/data/WHRI-GenomeCentre/shares/Projects/NGS_Projects/DNA_Sequencing/Sharples_Adam/GC-AS-10657/Analysis
+
+# Genome Directory:  Directory containing the bismark converted genome to use for this analysis.
+# Currently two options, mm10 and hg19
+# So choose from:
+# GENOME_DIR=/data/WHRI-GenomeCentre/data/bismark/hg19
+# GENOME_DIR=/data/WHRI-GenomeCentre/data/bismark/mm10
+# GENOME_DIR=/data/WHRI-GenomeCentre/data/bismark/hg38
+GENOME_DIR=/data/WHRI-GenomeCentre/Genome/Rat/bismark
+
+# Paths to software required
+# Picard
+PICARD_JAR=/data/WHRI-GenomeCentre/software/picard-2.60/build/libs/picard.jar
