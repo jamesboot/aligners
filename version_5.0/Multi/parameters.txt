@@ -1,2 +1,0 @@
-LIVER:/data/WHRI-GenomeCentre/shares/Projects/NGS_Projects/10x_Chromium/Li_Wenhao/GC-WL-9932/Analysis/GC-WL-9932_Multi/Liver_multi_config.csv
-VAT-SAT-PBMC:/data/WHRI-GenomeCentre/shares/Projects/NGS_Projects/10x_Chromium/Li_Wenhao/GC-WL-9932/Analysis/GC-WL-9932_Multi/VAT-SAT-PBMC_multi_config.csv
