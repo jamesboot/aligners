@@ -1,2 +1,3 @@
-# mafft
-Scripts for running multiple sequence alignment using mafft.
+# aligners
+
+Scripts for running any type of alignment
